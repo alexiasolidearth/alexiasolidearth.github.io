@@ -169,3 +169,16 @@ a {
     padding: 8px 0;
     text-indent: 2%;
 }
+#mc_embed_signup_scroll .indicates-required {
+    text-align: right;
+    font-size: 11px;
+    margin-right: 4%;
+}
+
+#mc_embed_signup_scroll .asterisk {
+    color: #e85c41;
+    font-size: 150%;
+    font-weight: normal;
+    position: relative;
+    top: 5px;
+}
