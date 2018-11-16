@@ -4,7 +4,7 @@
   box-shadow: 0 50px 100px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
   background: white;
   transition: all 0.3s ease;
-  height: 30px;
+  height: 40px;
   padding: 0px 30px;
   display: flex;
   align-items: center;
@@ -52,16 +52,15 @@
 /* Dropdown menu */
 .navbar-wagon-dropdown-menu {
   margin-top: 10px;
-  box-shadow: 5px 5px 10px #E6E6E6;
-  border-color: #E6E6E6;
+ 
 }
 .navbar-wagon-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
   color: #999999 !important;
   font-size: 10px !important;
-  line-height: 32px !important;
-  padding: 40px 40px;
+  line-height: 12px !important;
+  padding: 20px 20px;
 }
 .navbar-wagon-dropdown-menu li > a:hover {
   background: transparent !important;
@@ -69,15 +68,15 @@
 }
 .navbar-wagon-dropdown-menu:before {
   content: ' ';
-  height: 20px;
+  height: 40px;
   width: 50px;
   position: absolute;
   right: 10px;
   top: -6px;
   background-color: white;
   transform: rotate(45deg);
-  border-left: 1px solid #E6E6E6;
-  border-top: 1px solid #E6E6E6;
+  border-left: 1px solid #white;
+  border-top: 1px solid #white;
 }
 .banner {
   color: white;
@@ -158,3 +157,15 @@ a {
   margin: 50px
 }
   #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+.clear {
+    text-align: center;
+    margin-right: 2px;
+    margin-bottom: 10px;
+}
+
+#mc_embed_signup .mc-field-group input {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    text-indent: 2%;
+}
